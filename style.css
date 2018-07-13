@@ -1,0 +1,295 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+	
+}
+.header_top, .header_top a{
+	text-decoration:none;
+	color:#fff;
+}
+a{text-decoration:none}
+body{
+	background:#ddd3da;
+	font-size:17px;
+	
+}
+.over{
+	overflow:hidden;
+}
+
+.container
+{
+	background:#fff;
+	width:1170px;
+	margin:0 auto;
+
+}
+
+.header_left {
+  float: left;
+}
+
+.header_left h2{
+	 padding: 10px;
+	 
+}
+
+.header_right {
+  float: right;
+}
+.header_top {
+	background: #9e5bba;
+	border-bottom: 4px solid red;
+}
+.header_right li{
+	float:left;
+	padding:15px;
+}
+.header_right li:last-child{
+	border-left:2px solid #fff;
+}
+.logo {
+	float: left;
+}
+
+.Search {
+  float: left;
+  /*! padding: 10px; */
+  margin: 10px;
+}
+.icon {
+  float: left;
+  margin: 10px;
+}
+.search_icon {
+  float: right;
+}
+.header_buttom {
+	padding: 51px 22px;
+}
+.search_icon {
+  margin-top: 30px;
+}
+input[type='text'] {
+  padding: 12px;
+  font-size: 17px;
+}
+input[type="submit"] {
+	border-radius: 8px;
+	padding: 12px;
+	font-size: 17px;
+	border: none;
+}
+.Search img{
+	margin-top:20px;
+}
+.menu {
+  float: left;
+  background: #efefef;
+  margin-top:10px;
+}
+.menu li {
+
+  
+ 
+  float:left;
+   border-right: 2px solid #b0b4ab;
+  
+}
+.menu ul li a {
+ padding: 17px 4px;
+display:block;
+
+ 
+}
+.menu a:hover{
+	background:#73bf43;
+	color:#fff;
+	transition:1s;
+}
+
+.left {
+ width: 777px;
+  float: left;
+}
+.right {
+ width: 393px;
+  float: right;
+}
+.slider img {
+  width: 100%;
+}
+h3{
+	color:#964fbe;
+	font-size: 23px;
+}
+.artical1 li{
+	    border-bottom: 3px solid #73bf43;
+    list-style: none;
+    color: #000;
+    margin-bottom: 6px;
+    padding: 6px;
+    font-family: vadena;
+    font-weight: bold;
+}
+.artical2 li{
+	list-style:none;
+}
+.artical2 li {
+	border-bottom: 3px solid #73bf43;
+	list-style: none;
+	color: #000;
+	margin-bottom: 0px;
+	padding: 3px;
+	font-family: vadena;
+	font-weight: bold;
+}
+.right_buttom li {
+	border-bottom: 3px solid #73bf43;
+	list-style: none;
+	color: #000;
+	margin-bottom: 0px;
+	padding: 3px;
+	font-family: vadena;
+	font-weight: bold;
+}
+.right_buttom li a{
+	color:#6c6c6c;
+	font-size:16px;
+}
+.artical1 li a{
+	color:#6c6c6c;
+	font-size:16px;
+}
+.artical2 li a{
+	color:#6c6c6c;
+	font-size: 17px;
+}
+
+.artical1 {
+  float: left;
+  width: 45%;
+  padding: 15px;
+}
+.artical2 {
+  float: right;
+  width: 42%;
+  padding: 18px;
+}
+
+
+
+.right_top {
+	width: 100%;
+	overflow:hidden;
+}
+.right_top img{
+	width: 100%;
+}
+.right_buttom {
+	margin-top: 74px;
+}
+
+.right_buttom li{
+	border-bottom: 3px solid #73bf43;
+    list-style: none;
+    color: #000;
+    margin-bottom: 6px;
+    padding: 6px;
+    font-family: vadena;
+    font-weight: bold;
+}	
+.left_buttom img{
+	float:left;
+	padding: 2px;
+	
+}
+
+.left_buttom {
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+span {
+	float: right;
+	background: #76757d;
+	padding: 5px 19px;
+	margin: 18px 1px;
+}
+span a {
+	color:#fff;
+}
+.footer_img {
+	
+	width: 100%;
+}
+.footer_img img{
+	margin-top: 90px;
+}
+.footer_menu{
+	height:115px;
+	background:#d0cbd0;
+}
+.fooert_menu_left {
+	float: left;
+	margin: 32px;
+}
+.fooert_menu_left li{
+	list-style:none;
+	display:inline-block;
+	border-right: 3px solid #73bf43;
+}
+.footer_menu_right {
+	float: right;
+	margin: 32px;
+	text-align: right;
+}
+.fooert_menu_left a {
+	color: #000;
+	padding: 7px 0 9px;
+	font-size: 19px;
+	margin: 12px 14px;
+}
+.fooert_menu_left p {
+	padding: 10px;
+	font-size: 17px;
+}
+.nill_bar{
+	height:12px;
+	background:#a05d9c;
+}
+.img img ,.img1 img{
+	width:100%;
+	height:100%;
+	position:relative;
+	animation-name:sujan;
+	animation-duration:.6ms;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+	animation-timing-function:ease;
+	
+}
+@keyframes sujan{
+	0%{left:0px;top:0px;}
+	100%{left:0px;top:15px;}
+}
+
+.img2 img ,.img3 img{
+	width:100%;
+	height:100%;
+	position:relative;
+	animation-name:sujan3;
+	animation-duration:.3ms;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+	animation-timing-function:ease;
+	
+}
+@keyframes sujan3{
+	0%{left:15px;right:0px;}
+	100%{left:0px;right:15px;}
+	
+}
